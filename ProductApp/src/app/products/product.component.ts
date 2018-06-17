@@ -16,8 +16,9 @@ export class ProductComponent implements OnInit{
     imageWidth:number=50;
     filterText:string;
     errorMessage:string;
-    products:IProduct[]
+    products:IProduct[];
 
+    
     constructor(private _productService:ProductService){}
 
     toggleImage():void{
